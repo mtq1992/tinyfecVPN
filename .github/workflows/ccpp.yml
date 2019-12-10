@@ -18,4 +18,5 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: tinyfecbin
+        path: ./
         file: tinyfecvpn
