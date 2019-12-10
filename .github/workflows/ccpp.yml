@@ -14,3 +14,8 @@ jobs:
     
     - name: make
       run: make nolimit_all
+    - name: Upload artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: tinyfecbin
+        path: ./tinyfecvpn
